@@ -99,8 +99,8 @@
           "y": 611
         },
         "size": {
-          "width": 122.421875,
-          "height": 60
+          "height": 60,
+          "width": 122.421875
         },
         "angle": 0,
         "fixedRatio": false,
@@ -128,8 +128,8 @@
           "y": 750.5
         },
         "size": {
-          "width": 93.625,
-          "height": 60
+          "height": 60,
+          "width": 93.625
         },
         "angle": 0,
         "fixedRatio": false,
@@ -154,8 +154,8 @@
           "y": 898.75
         },
         "size": {
-          "width": 144.03125,
-          "height": 60
+          "height": 60,
+          "width": 144.03125
         },
         "angle": 0,
         "fixedRatio": false,
@@ -199,6 +199,188 @@
             "textVerticalAnchor": "middle"
           }
         }
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "5c863085-3ff8-43b3-9063-e17b615aa1d1"
+        },
+        "target": {
+          "id": "5c863085-3ff8-43b3-9063-e17b615aa1d1",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 30.01354217529297,
+              "dy": 7.8333282470703125,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "EV_BTN_01_DOWN\n[tick>0]\n/tick--"
+              }
+            },
+            "position": {
+              "distance": 0.3749577927607647,
+              "offset": 29.530556495205758,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "3"
+              }
+            }
+          }
+        ],
+        "id": "0fe3a053-5fd6-4115-869f-4b688f619cab",
+        "z": 2559,
+        "vertices": [
+          {
+            "x": 719,
+            "y": 594
+          },
+          {
+            "x": 674.01,
+            "y": 594
+          }
+        ],
+        "marker": [
+          "Dead transition. This transition is never taken due to the precedence of completion transition."
+        ],
+        "parent": "5c863085-3ff8-43b3-9063-e17b615aa1d1",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "3c6b61ac-658b-4355-b555-ab98d102f6d3"
+        },
+        "target": {
+          "id": "a15c62c8-bad6-4a29-a401-0694075df486",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 51.677093505859375,
+              "dy": 34.25335693359375,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {},
+            "position": {}
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "1"
+              }
+            }
+          }
+        ],
+        "id": "dd9b95ab-1cb7-43db-a9b7-a74274a645ec",
+        "z": 2559,
+        "marker": [
+          "Entry target must be child of the region.\nSource and target of a transition must not be located in orthogonal regions!"
+        ],
+        "parent": "6b3031e2-ab70-4e1a-8160-b464e4da994e",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "5c863085-3ff8-43b3-9063-e17b615aa1d1"
+        },
+        "target": {
+          "id": "a15c62c8-bad6-4a29-a401-0694075df486",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 89.80938720703125,
+              "dy": 34,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "EV_BTN_01_UP \n[tick>0]"
+              }
+            },
+            "position": {
+              "distance": 0.6386795004416448,
+              "offset": -18,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "1"
+              }
+            }
+          }
+        ],
+        "id": "19371d0a-742e-4261-92c1-f77b7454e39a",
+        "z": 2559,
+        "marker": [
+          "Dead transition. This transition is never taken due to the precedence of completion transition."
+        ],
+        "vertices": [
+          {
+            "x": 689,
+            "y": 784.5
+          }
+        ],
+        "parent": "6b3031e2-ab70-4e1a-8160-b464e4da994e",
+        "attrs": {}
       },
       {
         "type": "Transition",
@@ -327,188 +509,6 @@
       {
         "type": "Transition",
         "source": {
-          "id": "5c863085-3ff8-43b3-9063-e17b615aa1d1"
-        },
-        "target": {
-          "id": "a15c62c8-bad6-4a29-a401-0694075df486",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 89.80938720703125,
-              "dy": 34,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "EV_BTN_01_UP \n[tick>0]"
-              }
-            },
-            "position": {
-              "distance": 0.6386795004416448,
-              "offset": -18,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "1"
-              }
-            }
-          }
-        ],
-        "id": "19371d0a-742e-4261-92c1-f77b7454e39a",
-        "z": 2559,
-        "marker": [
-          "Dead transition. This transition is never taken due to the precedence of completion transition."
-        ],
-        "vertices": [
-          {
-            "x": 689,
-            "y": 784.5
-          }
-        ],
-        "parent": "6b3031e2-ab70-4e1a-8160-b464e4da994e",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "3c6b61ac-658b-4355-b555-ab98d102f6d3"
-        },
-        "target": {
-          "id": "a15c62c8-bad6-4a29-a401-0694075df486",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 51.677093505859375,
-              "dy": 34.25335693359375,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {},
-            "position": {}
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "1"
-              }
-            }
-          }
-        ],
-        "id": "dd9b95ab-1cb7-43db-a9b7-a74274a645ec",
-        "z": 2559,
-        "marker": [
-          "Entry target must be child of the region.\nSource and target of a transition must not be located in orthogonal regions!"
-        ],
-        "parent": "6b3031e2-ab70-4e1a-8160-b464e4da994e",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "5c863085-3ff8-43b3-9063-e17b615aa1d1"
-        },
-        "target": {
-          "id": "5c863085-3ff8-43b3-9063-e17b615aa1d1",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 30.01354217529297,
-              "dy": 7.8333282470703125,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "EV_BTN_01_DOWN\n[tick>0]\n/tick--"
-              }
-            },
-            "position": {
-              "distance": 0.3749577927607647,
-              "offset": 29.530556495205758,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "3"
-              }
-            }
-          }
-        ],
-        "id": "0fe3a053-5fd6-4115-869f-4b688f619cab",
-        "z": 2559,
-        "vertices": [
-          {
-            "x": 719,
-            "y": 594
-          },
-          {
-            "x": 674.01,
-            "y": 594
-          }
-        ],
-        "marker": [
-          "Dead transition. This transition is never taken due to the precedence of completion transition."
-        ],
-        "parent": "5c863085-3ff8-43b3-9063-e17b615aa1d1",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
           "id": "c1d36a9b-aa00-4117-9ca8-dc3dcfaec908"
         },
         "target": {
@@ -577,8 +577,8 @@
           "y": 743.5
         },
         "size": {
-          "width": 180,
-          "height": 67.25
+          "height": 67.25,
+          "width": 180
         },
         "angle": 0,
         "fixedRatio": false,
@@ -865,1029 +865,12 @@
       {
         "type": "Region",
         "position": {
-          "x": 1400,
-          "y": 401.34765625
-        },
-        "size": {
-          "height": 713.3046875,
-          "width": 1427
-        },
-        "angle": 0,
-        "fixedRatio": false,
-        "embedable": true,
-        "linkable": true,
-        "id": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "z": 2747,
-        "embeds": [
-          "f13a852b-e3e8-4f20-84f6-fdc661eca41c",
-          "625c360a-b0ce-40bd-858b-9222ab1608d1",
-          "27de1f8f-b9b4-4d37-91fc-8e3efe62fe32",
-          "317f80f9-3699-42b6-8319-6a0a9393ee2d",
-          "8b264a8c-350b-41e7-95cc-20422f9c45a3",
-          "114c1aed-2d13-482a-83a1-0e14d3777c19",
-          "937be774-60dd-4746-a555-ac3ef49f0a54",
-          "abf286f2-07c8-4dd6-a70f-8d63af6629a1",
-          "8fc77f40-45b9-43a2-a7fd-d0bf5e65cbc0",
-          "a3aad876-d32e-4711-9f49-5c7da1de0be0",
-          "a51db78f-6220-4290-aed8-487032668f9f",
-          "4c120328-c4d5-4064-a918-2ac99b02aedc",
-          "aaa67dc5-27e5-4860-b927-4fa036d97d18",
-          "08a0dd36-b449-45e3-a753-6d598c484974",
-          "126aa1d7-b789-4842-be76-902feba2e61f",
-          "d2fcf7c5-56a1-4356-a46d-563e89aad032",
-          "c8281805-d4bd-40ac-80dc-93353ca410c7",
-          "123efd02-cf54-4bc2-9f9a-32c74b4951e2",
-          "58c71b7a-9d33-4dc7-951f-0d355f700c59"
-        ],
-        "marker": [
-          "Region must have a 'default' entry."
-        ],
-        "attrs": {
-          "priority": {
-            "text": 2
-          },
-          "name": {
-            "text": "Sistema"
-          }
-        }
-      },
-      {
-        "type": "Entry",
-        "position": {
-          "x": 1488,
-          "y": 825.09765625
-        },
-        "size": {
-          "height": 15,
-          "width": 15
-        },
-        "angle": 0,
-        "fixedRatio": true,
-        "embedable": false,
-        "linkable": true,
-        "id": "4c120328-c4d5-4064-a918-2ac99b02aedc",
-        "z": 2748,
-        "embeds": [
-          "2fedfe7e-0800-4371-84a2-180410d4bb5a"
-        ],
-        "marker": [
-          "Initial entry must have an outgoing transition."
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {}
-      },
-      {
-        "type": "State",
-        "position": {
-          "x": 1523.8125,
-          "y": 751.84765625
-        },
-        "size": {
-          "width": 190,
-          "height": 94.890625
-        },
-        "angle": 0,
-        "fixedRatio": false,
-        "embedable": true,
-        "linkable": true,
-        "id": "aaa67dc5-27e5-4860-b927-4fa036d97d18",
-        "z": 2749,
-        "marker": [
-          "Node is not reachable."
-        ],
-        "embeds": [],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {
-          "name": {
-            "text": "ST_SYS_01_START"
-          }
-        }
-      },
-      {
-        "type": "State",
-        "position": {
-          "x": 1767.8125,
-          "y": 511.59765625
-        },
-        "size": {
-          "width": 144,
-          "height": 60
-        },
-        "angle": 0,
-        "fixedRatio": false,
-        "embedable": true,
-        "linkable": true,
-        "id": "08a0dd36-b449-45e3-a753-6d598c484974",
-        "z": 2750,
-        "marker": [
-          "Node is not reachable."
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {
-          "name": {
-            "text": "ST_SYS_01_INSIDE"
-          }
-        }
-      },
-      {
-        "type": "State",
-        "position": {
-          "x": 1572,
-          "y": 991.34765625
-        },
-        "size": {
-          "width": 93.625,
-          "height": 60
-        },
-        "angle": 0,
-        "fixedRatio": false,
-        "embedable": true,
-        "linkable": true,
-        "id": "126aa1d7-b789-4842-be76-902feba2e61f",
-        "z": 2751,
-        "marker": [
-          "Node is not reachable."
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {
-          "name": {
-            "text": "ST_SYS_01_LOW"
-          }
-        }
-      },
-      {
-        "type": "State",
-        "position": {
-          "x": 1911.8125,
-          "y": 991.34765625
-        },
-        "size": {
-          "width": 100.828125,
-          "height": 60
-        },
-        "angle": 0,
-        "fixedRatio": false,
-        "embedable": true,
-        "linkable": true,
-        "id": "d2fcf7c5-56a1-4356-a46d-563e89aad032",
-        "z": 2752,
-        "marker": [
-          "Node is not reachable."
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {
-          "name": {
-            "text": "ST_SYS_01_EXIT"
-          }
-        }
-      },
-      {
-        "type": "State",
-        "position": {
-          "x": 2258.285747528076,
-          "y": 991.34765625
-        },
-        "size": {
-          "width": 100.828125,
-          "height": 60
-        },
-        "angle": 0,
-        "fixedRatio": false,
-        "embedable": true,
-        "linkable": true,
-        "id": "c8281805-d4bd-40ac-80dc-93353ca410c7",
-        "z": 2753,
-        "marker": [
-          "Node is not reachable."
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {
-          "name": {
-            "text": "ST_SYS_01_OPEN"
-          }
-        }
-      },
-      {
-        "type": "State",
-        "position": {
-          "x": 2110,
-          "y": 520
-        },
-        "size": {
-          "width": 108.03125,
-          "height": 60
-        },
-        "angle": 0,
-        "fixedRatio": false,
-        "embedable": true,
-        "linkable": true,
-        "id": "123efd02-cf54-4bc2-9f9a-32c74b4951e2",
-        "z": 2760,
-        "marker": [
-          "Node is not reachable."
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {
-          "name": {
-            "text": "ST_SYS_01_PRINT"
-          }
-        }
-      },
-      {
-        "type": "State",
-        "position": {
-          "x": 2400.78125,
-          "y": 765.5
-        },
-        "size": {
-          "width": 115.21875,
-          "height": 60
-        },
-        "angle": 0,
-        "fixedRatio": false,
-        "embedable": true,
-        "linkable": true,
-        "id": "58c71b7a-9d33-4dc7-951f-0d355f700c59",
-        "z": 2764,
-        "marker": [
-          "Node is not reachable."
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {
-          "name": {
-            "text": "ST_SYS_01_PULLED"
-          }
-        }
-      },
-      {
-        "type": "NodeLabel",
-        "label": true,
-        "size": {
-          "width": 15,
-          "height": 15
-        },
-        "position": {
-          "x": 1488,
-          "y": 840.09765625
-        },
-        "id": "2fedfe7e-0800-4371-84a2-180410d4bb5a",
-        "z": 2767,
-        "parent": "4c120328-c4d5-4064-a918-2ac99b02aedc",
-        "attrs": {
-          "label": {
-            "fill": "#C5C8C6",
-            "refX": "50%",
-            "textAnchor": "middle",
-            "refY": "50%",
-            "textVerticalAnchor": "middle"
-          }
-        }
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "123efd02-cf54-4bc2-9f9a-32c74b4951e2"
-        },
-        "target": {
-          "id": "58c71b7a-9d33-4dc7-951f-0d355f700c59",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 59.22802734375,
-              "dy": 14.5,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "EV_SYS_01_TAKETICKET\n/raise EV_LED_02_BLINK",
-                "fill": "#555555"
-              }
-            },
-            "position": {
-              "distance": 0.2575494964949623,
-              "offset": -24,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "1",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "f13a852b-e3e8-4f20-84f6-fdc661eca41c",
-        "z": 2768,
-        "vertices": [
-          {
-            "x": 2460,
-            "y": 550
-          },
-          {
-            "x": 2460,
-            "y": 680
-          }
-        ],
-        "marker": [
-          "Out event 'EV_SYS_01_TAKETICKET' is never raised in this statechart. The transition trigger is therefore never active."
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "58c71b7a-9d33-4dc7-951f-0d355f700c59"
-        },
-        "target": {
-          "id": "c8281805-d4bd-40ac-80dc-93353ca410c7",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 81.728515625,
-              "dy": 44.65234375,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "EV_SYS_01_BARRIERUP\n",
-                "fill": "#555555"
-              }
-            },
-            "position": {
-              "distance": 0.20743186012158304,
-              "offset": -71,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "1",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "625c360a-b0ce-40bd-858b-9222ab1608d1",
-        "z": 2768,
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "vertices": [
-          {
-            "x": 2462,
-            "y": 1024
-          }
-        ],
-        "marker": [
-          "Out event 'EV_SYS_01_BARRIERUP' is never raised in this statechart. The transition trigger is therefore never active."
-        ],
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "c8281805-d4bd-40ac-80dc-93353ca410c7"
-        },
-        "target": {
-          "id": "d2fcf7c5-56a1-4356-a46d-563e89aad032",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 89.01025390625,
-              "dy": 40.25,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "EV_SYS_01_CAROUT\n/raise EV_LED_02_BLINK",
-                "fill": "#555555"
-              }
-            },
-            "position": {
-              "distance": 0.506080050694586,
-              "offset": 30.00002441406241,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "1",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "937be774-60dd-4746-a555-ac3ef49f0a54",
-        "z": 2768,
-        "vertices": [],
-        "marker": [
-          "Out event 'EV_SYS_01_CAROUT' is never raised in this statechart. The transition trigger is therefore never active."
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "d2fcf7c5-56a1-4356-a46d-563e89aad032"
-        },
-        "target": {
-          "id": "126aa1d7-b789-4842-be76-902feba2e61f",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 88.875732421875,
-              "dy": 40.25,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "EV_SYS_01_BARRIERDOWN",
-                "fill": "#555555"
-              }
-            },
-            "position": {
-              "distance": 0.5163619440995919,
-              "offset": 25.00002441406241,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "1",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "abf286f2-07c8-4dd6-a70f-8d63af6629a1",
-        "z": 2768,
-        "vertices": [],
-        "marker": [
-          "Out event 'EV_SYS_01_BARRIERDOWN' is never raised in this statechart. The transition trigger is therefore never active."
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "123efd02-cf54-4bc2-9f9a-32c74b4951e2"
-        },
-        "target": {
-          "id": "08a0dd36-b449-45e3-a753-6d598c484974",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 72.1875,
-              "dy": 4.0546875,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "EV_SYS_01_NOTAKETICKET",
-                "fill": "#555555"
-              }
-            },
-            "position": {
-              "distance": 0.5000000569523697,
-              "offset": 25,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "3",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "317f80f9-3699-42b6-8319-6a0a9393ee2d",
-        "z": 2768,
-        "vertices": [
-          {
-            "x": 1980,
-            "y": 455.65234375
-          }
-        ],
-        "marker": [
-          "Out event 'EV_SYS_01_NOTAKETICKET' is never raised in this statechart. The transition trigger is therefore never active."
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "08a0dd36-b449-45e3-a753-6d598c484974"
-        },
-        "target": {
-          "id": "123efd02-cf54-4bc2-9f9a-32c74b4951e2",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 1.94873046875,
-              "dy": 31,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "EV_SYS_01_ASKTICKET\n/raise EV_LED_01_ON",
-                "fill": "#555555"
-              }
-            },
-            "position": {
-              "distance": 0.5000001478221657,
-              "offset": -25.000000000000004,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "1",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "27de1f8f-b9b4-4d37-91fc-8e3efe62fe32",
-        "z": 2768,
-        "marker": [
-          "Out event 'EV_SYS_01_ASKTICKET' is never raised in this statechart. The transition trigger is therefore never active."
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "123efd02-cf54-4bc2-9f9a-32c74b4951e2"
-        },
-        "target": {
-          "id": "aaa67dc5-27e5-4860-b927-4fa036d97d18",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 166.1875,
-              "dy": 73.8046875,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "EV_SYS_01_NOCARIN",
-                "fill": "#555555"
-              }
-            },
-            "position": {
-              "distance": 0.5717905715947321,
-              "offset": 14.999999999999998,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "2",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "8b264a8c-350b-41e7-95cc-20422f9c45a3",
-        "z": 2768,
-        "vertices": [
-          {
-            "x": 2160,
-            "y": 784.5
-          }
-        ],
-        "marker": [
-          "Source and target of a transition must not be located in orthogonal regions!"
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "126aa1d7-b789-4842-be76-902feba2e61f"
-        },
-        "target": {
-          "id": "aaa67dc5-27e5-4860-b927-4fa036d97d18",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 96.1875,
-              "dy": 93.8046875,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "fill": "#555555"
-              }
-            },
-            "position": {}
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "1",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "8fc77f40-45b9-43a2-a7fd-d0bf5e65cbc0",
-        "z": 2768,
-        "marker": [
-          "Source and target of a transition must not be located in orthogonal regions!"
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "08a0dd36-b449-45e3-a753-6d598c484974"
-        },
-        "target": {
-          "id": "aaa67dc5-27e5-4860-b927-4fa036d97d18",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 146.1875,
-              "dy": 18.5,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "EV_SYS_01_NOCARIN",
-                "fill": "#555555"
-              }
-            },
-            "position": {
-              "distance": 0.7690400353286782,
-              "offset": 22.92312261469091,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "2",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "114c1aed-2d13-482a-83a1-0e14d3777c19",
-        "z": 2768,
-        "vertices": [
-          {
-            "x": 1870,
-            "y": 770.35
-          }
-        ],
-        "marker": [
-          "Out event 'EV_SYS_01_NOCARIN' is never raised in this statechart. The transition trigger is therefore never active."
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "aaa67dc5-27e5-4860-b927-4fa036d97d18"
-        },
-        "target": {
-          "id": "08a0dd36-b449-45e3-a753-6d598c484974",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 12.1875,
-              "dy": 29,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "EV_SYS_01_CARIN\n",
-                "fill": "#555555"
-              }
-            },
-            "position": {
-              "distance": 0.7601730423987662,
-              "offset": -6.77813720703125,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "1",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "a3aad876-d32e-4711-9f49-5c7da1de0be0",
-        "z": 2768,
-        "vertices": [
-          {
-            "x": 1540,
-            "y": 630.59765625
-          }
-        ],
-        "marker": [
-          "Source and target of a transition must not be located in orthogonal regions!"
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "4c120328-c4d5-4064-a918-2ac99b02aedc"
-        },
-        "target": {
-          "id": "aaa67dc5-27e5-4860-b927-4fa036d97d18",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 6.015625,
-              "dy": 34.5,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "fill": "#555555"
-              }
-            },
-            "position": {}
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "1",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "a51db78f-6220-4290-aed8-487032668f9f",
-        "z": 2768,
-        "marker": [
-          "Entry target must be child of the region.\nSource and target of a transition must not be located in orthogonal regions!"
-        ],
-        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
-        "attrs": {}
-      },
-      {
-        "type": "Region",
-        "position": {
           "x": 2895,
           "y": 417
         },
         "size": {
-          "width": 1062,
-          "height": 682
+          "height": 682,
+          "width": 1062
         },
         "angle": 0,
         "fixedRatio": false,
@@ -2004,7 +987,7 @@
         },
         "size": {
           "width": 449,
-          "height": 549.375
+          "height": 582.96875
         },
         "angle": 0,
         "fixedRatio": false,
@@ -2089,589 +1072,17 @@
         "id": "18472303-82c7-4795-be5b-f290ea24dc18",
         "z": 3026,
         "marker": [
-          "Duplicate Region '' in State 'ST_LED_01_BLINKING'"
+          "Region must have a 'default' entry."
         ],
         "embeds": [
           "8e0bf906-3eb9-479b-affb-3c36d1aa59ed",
           "7e85f3b0-c0b3-4925-a382-df3f90087b2c",
           "876d1fc7-114f-45de-b966-0a7395823261",
-          "a8ac66a3-2061-430a-8716-9550ed946033",
           "d0794ee2-1a40-46da-8058-44cce5d67493",
+          "a8ac66a3-2061-430a-8716-9550ed946033",
           "52f211a6-3d1c-4ade-b097-57b6953e0ad5"
         ],
         "parent": "309864cb-e085-4218-b689-5c406a15fe58",
-        "attrs": {}
-      },
-      {
-        "type": "State",
-        "position": {
-          "x": 3632,
-          "y": 612.5859375
-        },
-        "size": {
-          "width": 71.015625,
-          "height": 160.78125
-        },
-        "angle": 0,
-        "fixedRatio": false,
-        "embedable": true,
-        "linkable": true,
-        "id": "a8ac66a3-2061-430a-8716-9550ed946033",
-        "z": 3027,
-        "marker": [
-          "Duplicate State 'ON' in Region ''"
-        ],
-        "embeds": [
-          "df8267c3-aa88-4da2-89f1-75c592ace514"
-        ],
-        "parent": "18472303-82c7-4795-be5b-f290ea24dc18",
-        "attrs": {
-          "name": {
-            "text": "ON"
-          }
-        }
-      },
-      {
-        "type": "State",
-        "position": {
-          "x": 3632,
-          "y": 788.1609373092651
-        },
-        "size": {
-          "width": 71.015625,
-          "height": 160.78125
-        },
-        "angle": 0,
-        "fixedRatio": false,
-        "embedable": true,
-        "linkable": true,
-        "id": "d0794ee2-1a40-46da-8058-44cce5d67493",
-        "z": 3028,
-        "marker": [
-          "Duplicate State 'OFF' in Region ''"
-        ],
-        "embeds": [
-          "5c7f8143-e721-4c83-98e9-0ac9244fe90f"
-        ],
-        "parent": "18472303-82c7-4795-be5b-f290ea24dc18",
-        "attrs": {
-          "name": {
-            "text": "OFF"
-          }
-        }
-      },
-      {
-        "type": "Entry",
-        "position": {
-          "x": 3464,
-          "y": 805.8359375
-        },
-        "size": {
-          "height": 15,
-          "width": 15
-        },
-        "angle": 0,
-        "fixedRatio": true,
-        "embedable": false,
-        "linkable": true,
-        "id": "52f211a6-3d1c-4ade-b097-57b6953e0ad5",
-        "z": 3029,
-        "embeds": [
-          "c6f53193-9637-4c2b-bc5a-e4ca1c00a6b7"
-        ],
-        "marker": [
-          "Duplicate unnamed Entry in Region ''"
-        ],
-        "parent": "18472303-82c7-4795-be5b-f290ea24dc18",
-        "attrs": {}
-      },
-      {
-        "type": "NodeLabel",
-        "label": true,
-        "size": {
-          "width": 15,
-          "height": 15
-        },
-        "position": {
-          "x": 3464,
-          "y": 820.8359375
-        },
-        "id": "c6f53193-9637-4c2b-bc5a-e4ca1c00a6b7",
-        "z": 3035,
-        "parent": "52f211a6-3d1c-4ade-b097-57b6953e0ad5",
-        "attrs": {
-          "label": {
-            "fill": "#C5C8C6",
-            "refX": "50%",
-            "textAnchor": "middle",
-            "refY": "50%",
-            "textVerticalAnchor": "middle"
-          }
-        }
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "52f211a6-3d1c-4ade-b097-57b6953e0ad5"
-        },
-        "target": {
-          "id": "d0794ee2-1a40-46da-8058-44cce5d67493",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 8,
-              "dy": 29.17498779296875,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "fill": "#555555"
-              }
-            },
-            "position": {}
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "1",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "8e0bf906-3eb9-479b-affb-3c36d1aa59ed",
-        "z": 3036,
-        "marker": [
-          "Entry target must be child of the region.\nSource and target of a transition must not be located in orthogonal regions!"
-        ],
-        "vertices": [],
-        "parent": "18472303-82c7-4795-be5b-f290ea24dc18",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "d0794ee2-1a40-46da-8058-44cce5d67493"
-        },
-        "target": {
-          "id": "d0794ee2-1a40-46da-8058-44cce5d67493",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 45,
-              "dy": 118.02264404296875,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "\nEV_LED_01_TICK\n/tick --",
-                "fill": "#555555"
-              }
-            },
-            "position": {
-              "distance": 0.48692415252976373,
-              "offset": 12.806084787612328,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "2",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "5c7f8143-e721-4c83-98e9-0ac9244fe90f",
-        "z": 3036,
-        "marker": [
-          "Dead transition. This transition is never taken due to the precedence of completion transition."
-        ],
-        "vertices": [
-          {
-            "x": 3647,
-            "y": 958.18359375
-          },
-          {
-            "x": 3677,
-            "y": 958.18359375
-          }
-        ],
-        "parent": "d0794ee2-1a40-46da-8058-44cce5d67493",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "d0794ee2-1a40-46da-8058-44cce5d67493"
-        },
-        "target": {
-          "id": "a8ac66a3-2061-430a-8716-9550ed946033",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 13,
-              "dy": 60.75,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "[tick == 0]\n/tick = DEL_LED_01_BLINK",
-                "fill": "#555555"
-              }
-            },
-            "position": {
-              "distance": 0.604502499108737,
-              "offset": -55,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "2",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "7e85f3b0-c0b3-4925-a382-df3f90087b2c",
-        "z": 3036,
-        "marker": [
-          "Multiple completion/default transition. Only one completion/default transition is allowed from state 'OFF'"
-        ],
-        "parent": "18472303-82c7-4795-be5b-f290ea24dc18",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "a8ac66a3-2061-430a-8716-9550ed946033"
-        },
-        "target": {
-          "id": "d0794ee2-1a40-46da-8058-44cce5d67493",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 58,
-              "dy": 18.17498779296875,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "[tick == 0]\n/tick = DEL_LED_01_BLINK",
-                "fill": "#555555"
-              }
-            },
-            "position": {
-              "distance": 0.4480877143739725,
-              "offset": -103.99999999999999,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "2",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "876d1fc7-114f-45de-b966-0a7395823261",
-        "z": 3036,
-        "marker": [
-          "Dead transition. This transition is never taken due to the precedence of completion transition."
-        ],
-        "parent": "18472303-82c7-4795-be5b-f290ea24dc18",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "a8ac66a3-2061-430a-8716-9550ed946033"
-        },
-        "target": {
-          "id": "a8ac66a3-2061-430a-8716-9550ed946033",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 4,
-              "dy": 27.5,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "\nEV_LED_01_TICK\n/tick --",
-                "fill": "#555555"
-              }
-            },
-            "position": {
-              "distance": 0.5113407396735199,
-              "offset": 22.7220351838433,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "2",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "df8267c3-aa88-4da2-89f1-75c592ace514",
-        "z": 3036,
-        "vertices": [
-          {
-            "x": 3683,
-            "y": 579.18359375
-          },
-          {
-            "x": 3636,
-            "y": 579.18359375
-          }
-        ],
-        "parent": "a8ac66a3-2061-430a-8716-9550ed946033",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "309864cb-e085-4218-b689-5c406a15fe58"
-        },
-        "target": {
-          "id": "05bd01c6-f06c-44ed-b01e-24860adc6f91",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 224,
-              "dy": 22.6953125,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "EV_LED_01_NOBLINK",
-                "fill": "#555555"
-              }
-            },
-            "position": {
-              "distance": 0.5006432999065416,
-              "offset": 19,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "1",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "54480f51-b457-4c74-90f1-484e743bf4a4",
-        "z": 3036,
-        "vertices": [],
-        "marker": [
-          "Source and target of a transition must not be located in orthogonal regions!"
-        ],
-        "parent": "c306766a-0162-49dd-a556-9459384bdea7",
-        "attrs": {}
-      },
-      {
-        "type": "Transition",
-        "source": {
-          "id": "05bd01c6-f06c-44ed-b01e-24860adc6f91"
-        },
-        "target": {
-          "x": 3568,
-          "y": 831,
-          "id": "309864cb-e085-4218-b689-5c406a15fe58",
-          "anchor": {
-            "name": "topLeft",
-            "args": {
-              "dx": 7,
-              "dy": 242.40625,
-              "rotate": true
-            }
-          },
-          "priority": true
-        },
-        "router": {
-          "name": "orthogonal",
-          "args": {
-            "padding": 8
-          }
-        },
-        "connector": {
-          "name": "rounded"
-        },
-        "labels": [
-          {
-            "attrs": {
-              "text": {
-                "text": "EV_LED_01_BLINK\n/tick = DEL_LED_01_MAX",
-                "fill": "#555555"
-              }
-            },
-            "position": {
-              "distance": 0.5280232270415349,
-              "offset": 30.999997558593805,
-              "angle": 0
-            }
-          },
-          {
-            "attrs": {
-              "root": {
-                "opacity": 1
-              },
-              "label": {
-                "text": "2",
-                "fill": "#555555"
-              },
-              "circleBody": {
-                "fill": "#F0F0F0",
-                "stroke": "#555555"
-              }
-            }
-          }
-        ],
-        "id": "c58551d4-2ef5-4ee8-ae69-c601bf1a43ab",
-        "z": 3036,
-        "vertices": [],
-        "marker": [
-          "Source and target of a transition must not be located in orthogonal regions!"
-        ],
-        "parent": "c306766a-0162-49dd-a556-9459384bdea7",
         "attrs": {}
       },
       {
@@ -2847,6 +1258,1595 @@
         ],
         "parent": "c306766a-0162-49dd-a556-9459384bdea7",
         "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "309864cb-e085-4218-b689-5c406a15fe58"
+        },
+        "target": {
+          "id": "05bd01c6-f06c-44ed-b01e-24860adc6f91",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 224,
+              "dy": 22.6953125,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "EV_LED_01_NOBLINK",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.5006432999065416,
+              "offset": 19,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "1",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "54480f51-b457-4c74-90f1-484e743bf4a4",
+        "z": 3036,
+        "vertices": [],
+        "marker": [
+          "Source and target of a transition must not be located in orthogonal regions!"
+        ],
+        "parent": "c306766a-0162-49dd-a556-9459384bdea7",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "05bd01c6-f06c-44ed-b01e-24860adc6f91"
+        },
+        "target": {
+          "x": 3568,
+          "y": 831,
+          "id": "309864cb-e085-4218-b689-5c406a15fe58",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 7,
+              "dy": 242.40625,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "EV_LED_01_BLINK\n/tick = DEL_LED_01_MAX",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.5280232270415349,
+              "offset": 30.999997558593805,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "2",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "c58551d4-2ef5-4ee8-ae69-c601bf1a43ab",
+        "z": 3036,
+        "vertices": [],
+        "marker": [
+          "Target state has regions without 'default' entries."
+        ],
+        "parent": "c306766a-0162-49dd-a556-9459384bdea7",
+        "attrs": {}
+      },
+      {
+        "type": "State",
+        "position": {
+          "x": 3632,
+          "y": 810.5
+        },
+        "size": {
+          "width": 71.015625,
+          "height": 93.59375
+        },
+        "angle": 0,
+        "fixedRatio": false,
+        "embedable": true,
+        "linkable": true,
+        "id": "d0794ee2-1a40-46da-8058-44cce5d67493",
+        "z": 3039,
+        "marker": [
+          "Duplicate State 'OFF' in Region ''"
+        ],
+        "embeds": [
+          "5c7f8143-e721-4c83-98e9-0ac9244fe90f"
+        ],
+        "parent": "18472303-82c7-4795-be5b-f290ea24dc18",
+        "attrs": {
+          "name": {
+            "text": "OFF"
+          }
+        }
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "d0794ee2-1a40-46da-8058-44cce5d67493"
+        },
+        "target": {
+          "id": "d0794ee2-1a40-46da-8058-44cce5d67493",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 48,
+              "dy": 41.96875,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "\nEV_LED_01_TICK\n/tick --",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.48692415252976373,
+              "offset": 12.806084787612328,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "2",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "5c7f8143-e721-4c83-98e9-0ac9244fe90f",
+        "z": 3040,
+        "marker": [
+          "Dead transition. This transition is never taken due to the precedence of completion transition."
+        ],
+        "vertices": [
+          {
+            "x": 3647,
+            "y": 915.46875
+          },
+          {
+            "x": 3680,
+            "y": 915.46875
+          }
+        ],
+        "parent": "d0794ee2-1a40-46da-8058-44cce5d67493",
+        "attrs": {}
+      },
+      {
+        "type": "State",
+        "position": {
+          "x": 3632,
+          "y": 671
+        },
+        "size": {
+          "width": 71.015625,
+          "height": 93.59375
+        },
+        "angle": 0,
+        "fixedRatio": false,
+        "embedable": true,
+        "linkable": true,
+        "id": "a8ac66a3-2061-430a-8716-9550ed946033",
+        "z": 3041,
+        "marker": [
+          "Duplicate State 'ON' in Region ''"
+        ],
+        "embeds": [
+          "df8267c3-aa88-4da2-89f1-75c592ace514"
+        ],
+        "parent": "18472303-82c7-4795-be5b-f290ea24dc18",
+        "attrs": {
+          "name": {
+            "text": "ON"
+          }
+        }
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "a8ac66a3-2061-430a-8716-9550ed946033"
+        },
+        "target": {
+          "id": "a8ac66a3-2061-430a-8716-9550ed946033",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 4,
+              "dy": 27.5,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "\nEV_LED_01_TICK\n/tick --",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.5113407396735199,
+              "offset": 22.7220351838433,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "2",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "df8267c3-aa88-4da2-89f1-75c592ace514",
+        "z": 3042,
+        "vertices": [
+          {
+            "x": 3683,
+            "y": 637.59765625
+          },
+          {
+            "x": 3636,
+            "y": 637.59765625
+          }
+        ],
+        "parent": "a8ac66a3-2061-430a-8716-9550ed946033",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "a8ac66a3-2061-430a-8716-9550ed946033"
+        },
+        "target": {
+          "id": "d0794ee2-1a40-46da-8058-44cce5d67493",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 58,
+              "dy": 18.17498779296875,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "[tick == 0]\n/tick = DEL_LED_01_BLINK",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.4480877143739725,
+              "offset": -103.99999999999999,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "2",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "876d1fc7-114f-45de-b966-0a7395823261",
+        "z": 3042,
+        "marker": [
+          "Source and target of a transition must not be located in orthogonal regions!"
+        ],
+        "parent": "18472303-82c7-4795-be5b-f290ea24dc18",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "d0794ee2-1a40-46da-8058-44cce5d67493"
+        },
+        "target": {
+          "id": "a8ac66a3-2061-430a-8716-9550ed946033",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 13,
+              "dy": 60.75,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "[tick == 0]\n/tick = DEL_LED_01_BLINK",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.5791054377480159,
+              "offset": -93,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "2",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "7e85f3b0-c0b3-4925-a382-df3f90087b2c",
+        "z": 3042,
+        "marker": [
+          "Source and target of a transition must not be located in orthogonal regions!"
+        ],
+        "parent": "18472303-82c7-4795-be5b-f290ea24dc18",
+        "attrs": {}
+      },
+      {
+        "type": "Entry",
+        "position": {
+          "x": 3775,
+          "y": 855.09765625
+        },
+        "size": {
+          "height": 15,
+          "width": 15
+        },
+        "angle": 0,
+        "fixedRatio": true,
+        "embedable": false,
+        "linkable": true,
+        "id": "52f211a6-3d1c-4ade-b097-57b6953e0ad5",
+        "z": 3043,
+        "embeds": [
+          "c6f53193-9637-4c2b-bc5a-e4ca1c00a6b7"
+        ],
+        "marker": [
+          "Duplicate unnamed Entry in Region ''"
+        ],
+        "parent": "18472303-82c7-4795-be5b-f290ea24dc18",
+        "attrs": {}
+      },
+      {
+        "type": "NodeLabel",
+        "label": true,
+        "size": {
+          "width": 15,
+          "height": 15
+        },
+        "position": {
+          "x": 3775,
+          "y": 870.09765625
+        },
+        "id": "c6f53193-9637-4c2b-bc5a-e4ca1c00a6b7",
+        "z": 3044,
+        "parent": "52f211a6-3d1c-4ade-b097-57b6953e0ad5",
+        "attrs": {
+          "label": {
+            "fill": "#C5C8C6",
+            "refX": "50%",
+            "textAnchor": "middle",
+            "refY": "50%",
+            "textVerticalAnchor": "middle"
+          }
+        }
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "52f211a6-3d1c-4ade-b097-57b6953e0ad5"
+        },
+        "target": {
+          "id": "d0794ee2-1a40-46da-8058-44cce5d67493",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 8,
+              "dy": 29.17498779296875,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "fill": "#555555"
+              }
+            },
+            "position": {}
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "1",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "8e0bf906-3eb9-479b-affb-3c36d1aa59ed",
+        "z": 3045,
+        "marker": [
+          "Entry target must be child of the region.\nSource and target of a transition must not be located in orthogonal regions!"
+        ],
+        "vertices": [],
+        "parent": "18472303-82c7-4795-be5b-f290ea24dc18",
+        "attrs": {}
+      },
+      {
+        "type": "Region",
+        "position": {
+          "x": 1330,
+          "y": 416.84765625
+        },
+        "size": {
+          "height": 713.3046875,
+          "width": 1427
+        },
+        "angle": 0,
+        "fixedRatio": false,
+        "embedable": true,
+        "linkable": true,
+        "id": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "z": 3046,
+        "embeds": [
+          "f13a852b-e3e8-4f20-84f6-fdc661eca41c",
+          "625c360a-b0ce-40bd-858b-9222ab1608d1",
+          "27de1f8f-b9b4-4d37-91fc-8e3efe62fe32",
+          "317f80f9-3699-42b6-8319-6a0a9393ee2d",
+          "8b264a8c-350b-41e7-95cc-20422f9c45a3",
+          "114c1aed-2d13-482a-83a1-0e14d3777c19",
+          "937be774-60dd-4746-a555-ac3ef49f0a54",
+          "abf286f2-07c8-4dd6-a70f-8d63af6629a1",
+          "8fc77f40-45b9-43a2-a7fd-d0bf5e65cbc0",
+          "a3aad876-d32e-4711-9f49-5c7da1de0be0",
+          "a51db78f-6220-4290-aed8-487032668f9f",
+          "4c120328-c4d5-4064-a918-2ac99b02aedc",
+          "aaa67dc5-27e5-4860-b927-4fa036d97d18",
+          "08a0dd36-b449-45e3-a753-6d598c484974",
+          "126aa1d7-b789-4842-be76-902feba2e61f",
+          "d2fcf7c5-56a1-4356-a46d-563e89aad032",
+          "c8281805-d4bd-40ac-80dc-93353ca410c7",
+          "123efd02-cf54-4bc2-9f9a-32c74b4951e2",
+          "58c71b7a-9d33-4dc7-951f-0d355f700c59"
+        ],
+        "marker": [
+          "Region must have a 'default' entry."
+        ],
+        "attrs": {
+          "priority": {
+            "text": 2
+          },
+          "name": {
+            "text": "Sistema"
+          }
+        }
+      },
+      {
+        "type": "Entry",
+        "position": {
+          "x": 1418,
+          "y": 840.59765625
+        },
+        "size": {
+          "height": 15,
+          "width": 15
+        },
+        "angle": 0,
+        "fixedRatio": true,
+        "embedable": false,
+        "linkable": true,
+        "id": "4c120328-c4d5-4064-a918-2ac99b02aedc",
+        "z": 3047,
+        "embeds": [
+          "2fedfe7e-0800-4371-84a2-180410d4bb5a"
+        ],
+        "marker": [
+          "Initial entry must have an outgoing transition."
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {}
+      },
+      {
+        "type": "State",
+        "position": {
+          "x": 1453.8125,
+          "y": 767.34765625
+        },
+        "size": {
+          "height": 94.890625,
+          "width": 190
+        },
+        "angle": 0,
+        "fixedRatio": false,
+        "embedable": true,
+        "linkable": true,
+        "id": "aaa67dc5-27e5-4860-b927-4fa036d97d18",
+        "z": 3048,
+        "marker": [
+          "Node is not reachable."
+        ],
+        "embeds": [],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {
+          "name": {
+            "text": "ST_SYS_01_START"
+          }
+        }
+      },
+      {
+        "type": "State",
+        "position": {
+          "x": 1697.8125,
+          "y": 527.09765625
+        },
+        "size": {
+          "height": 60,
+          "width": 144
+        },
+        "angle": 0,
+        "fixedRatio": false,
+        "embedable": true,
+        "linkable": true,
+        "id": "08a0dd36-b449-45e3-a753-6d598c484974",
+        "z": 3049,
+        "marker": [
+          "Node is not reachable."
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {
+          "name": {
+            "text": "ST_SYS_01_INSIDE"
+          }
+        }
+      },
+      {
+        "type": "State",
+        "position": {
+          "x": 1502,
+          "y": 1006.84765625
+        },
+        "size": {
+          "height": 60,
+          "width": 93.625
+        },
+        "angle": 0,
+        "fixedRatio": false,
+        "embedable": true,
+        "linkable": true,
+        "id": "126aa1d7-b789-4842-be76-902feba2e61f",
+        "z": 3050,
+        "marker": [
+          "Node is not reachable."
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {
+          "name": {
+            "text": "ST_SYS_01_LOW"
+          }
+        }
+      },
+      {
+        "type": "State",
+        "position": {
+          "x": 1841.8125,
+          "y": 1006.84765625
+        },
+        "size": {
+          "height": 60,
+          "width": 100.828125
+        },
+        "angle": 0,
+        "fixedRatio": false,
+        "embedable": true,
+        "linkable": true,
+        "id": "d2fcf7c5-56a1-4356-a46d-563e89aad032",
+        "z": 3051,
+        "marker": [
+          "Node is not reachable."
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {
+          "name": {
+            "text": "ST_SYS_01_EXIT"
+          }
+        }
+      },
+      {
+        "type": "State",
+        "position": {
+          "x": 2188.285747528076,
+          "y": 1006.84765625
+        },
+        "size": {
+          "height": 60,
+          "width": 100.828125
+        },
+        "angle": 0,
+        "fixedRatio": false,
+        "embedable": true,
+        "linkable": true,
+        "id": "c8281805-d4bd-40ac-80dc-93353ca410c7",
+        "z": 3052,
+        "marker": [
+          "Node is not reachable."
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {
+          "name": {
+            "text": "ST_SYS_01_OPEN"
+          }
+        }
+      },
+      {
+        "type": "State",
+        "position": {
+          "x": 2040,
+          "y": 535.5
+        },
+        "size": {
+          "height": 60,
+          "width": 108.03125
+        },
+        "angle": 0,
+        "fixedRatio": false,
+        "embedable": true,
+        "linkable": true,
+        "id": "123efd02-cf54-4bc2-9f9a-32c74b4951e2",
+        "z": 3053,
+        "marker": [
+          "Node is not reachable."
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {
+          "name": {
+            "text": "ST_SYS_01_PRINT"
+          }
+        }
+      },
+      {
+        "type": "State",
+        "position": {
+          "x": 2330.78125,
+          "y": 781
+        },
+        "size": {
+          "height": 60,
+          "width": 115.21875
+        },
+        "angle": 0,
+        "fixedRatio": false,
+        "embedable": true,
+        "linkable": true,
+        "id": "58c71b7a-9d33-4dc7-951f-0d355f700c59",
+        "z": 3054,
+        "marker": [
+          "Node is not reachable."
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {
+          "name": {
+            "text": "ST_SYS_01_PULLED"
+          }
+        }
+      },
+      {
+        "type": "NodeLabel",
+        "label": true,
+        "size": {
+          "width": 15,
+          "height": 15
+        },
+        "position": {
+          "x": 1418,
+          "y": 855.59765625
+        },
+        "id": "2fedfe7e-0800-4371-84a2-180410d4bb5a",
+        "z": 3066,
+        "parent": "4c120328-c4d5-4064-a918-2ac99b02aedc",
+        "attrs": {
+          "label": {
+            "fill": "#C5C8C6",
+            "refX": "50%",
+            "textAnchor": "middle",
+            "refY": "50%",
+            "textVerticalAnchor": "middle"
+          }
+        }
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "123efd02-cf54-4bc2-9f9a-32c74b4951e2"
+        },
+        "target": {
+          "id": "58c71b7a-9d33-4dc7-951f-0d355f700c59",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 59.22802734375,
+              "dy": 14.5,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "EV_SYS_01_TAKETICKET\n/raise EV_LED_02_BLINK",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.2575494964949623,
+              "offset": -24,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "1",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "f13a852b-e3e8-4f20-84f6-fdc661eca41c",
+        "z": 3067,
+        "vertices": [
+          {
+            "x": 2390,
+            "y": 565.5
+          },
+          {
+            "x": 2390,
+            "y": 695.5
+          }
+        ],
+        "marker": [
+          "Out event 'EV_SYS_01_TAKETICKET' is never raised in this statechart. The transition trigger is therefore never active."
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "58c71b7a-9d33-4dc7-951f-0d355f700c59"
+        },
+        "target": {
+          "id": "c8281805-d4bd-40ac-80dc-93353ca410c7",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 81.728515625,
+              "dy": 44.65234375,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "EV_SYS_01_BARRIERUP\n/raise EV_LED_02_NOBLINK",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.20743188919870784,
+              "offset": -101,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "1",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "625c360a-b0ce-40bd-858b-9222ab1608d1",
+        "z": 3067,
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "vertices": [
+          {
+            "x": 2392,
+            "y": 1039.5
+          }
+        ],
+        "marker": [
+          "Out event 'EV_SYS_01_BARRIERUP' is never raised in this statechart. The transition trigger is therefore never active."
+        ],
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "c8281805-d4bd-40ac-80dc-93353ca410c7"
+        },
+        "target": {
+          "id": "d2fcf7c5-56a1-4356-a46d-563e89aad032",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 89.01025390625,
+              "dy": 40.25,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "EV_SYS_01_CAROUT\n/raise EV_LED_02_BLINK",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.506080050694586,
+              "offset": 30.00002441406241,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "1",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "937be774-60dd-4746-a555-ac3ef49f0a54",
+        "z": 3067,
+        "vertices": [],
+        "marker": [
+          "Out event 'EV_SYS_01_CAROUT' is never raised in this statechart. The transition trigger is therefore never active."
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "d2fcf7c5-56a1-4356-a46d-563e89aad032"
+        },
+        "target": {
+          "id": "126aa1d7-b789-4842-be76-902feba2e61f",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 88.875732421875,
+              "dy": 40.25,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "EV_SYS_01_BARRIERDOWN\n/raise EV_LED_02_NOBLINK",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.5163619440995919,
+              "offset": 25.00002441406241,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "1",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "abf286f2-07c8-4dd6-a70f-8d63af6629a1",
+        "z": 3067,
+        "vertices": [],
+        "marker": [
+          "Out event 'EV_SYS_01_BARRIERDOWN' is never raised in this statechart. The transition trigger is therefore never active."
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "123efd02-cf54-4bc2-9f9a-32c74b4951e2"
+        },
+        "target": {
+          "id": "08a0dd36-b449-45e3-a753-6d598c484974",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 72.1875,
+              "dy": 4.0546875,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "EV_SYS_01_NOTAKETICKET",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.5000000569523697,
+              "offset": 25,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "3",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "317f80f9-3699-42b6-8319-6a0a9393ee2d",
+        "z": 3067,
+        "vertices": [
+          {
+            "x": 1910,
+            "y": 471.15234375
+          }
+        ],
+        "marker": [
+          "Out event 'EV_SYS_01_NOTAKETICKET' is never raised in this statechart. The transition trigger is therefore never active."
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "08a0dd36-b449-45e3-a753-6d598c484974"
+        },
+        "target": {
+          "id": "123efd02-cf54-4bc2-9f9a-32c74b4951e2",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 1.94873046875,
+              "dy": 31,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "EV_SYS_01_ASKTICKET\n/raise EV_LED_01_ON",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.5000001478221657,
+              "offset": -25.000000000000004,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "1",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "27de1f8f-b9b4-4d37-91fc-8e3efe62fe32",
+        "z": 3067,
+        "marker": [
+          "Out event 'EV_SYS_01_ASKTICKET' is never raised in this statechart. The transition trigger is therefore never active."
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "08a0dd36-b449-45e3-a753-6d598c484974"
+        },
+        "target": {
+          "id": "aaa67dc5-27e5-4860-b927-4fa036d97d18",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 146.1875,
+              "dy": 18.5,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "EV_SYS_01_NOCARIN",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.7690400353286782,
+              "offset": 22.92312261469091,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "2",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "114c1aed-2d13-482a-83a1-0e14d3777c19",
+        "z": 3067,
+        "vertices": [
+          {
+            "x": 1800,
+            "y": 785.85
+          }
+        ],
+        "marker": [
+          "Out event 'EV_SYS_01_NOCARIN' is never raised in this statechart. The transition trigger is therefore never active."
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "126aa1d7-b789-4842-be76-902feba2e61f"
+        },
+        "target": {
+          "id": "aaa67dc5-27e5-4860-b927-4fa036d97d18",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 96.1875,
+              "dy": 93.8046875,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "fill": "#555555"
+              }
+            },
+            "position": {}
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "1",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "8fc77f40-45b9-43a2-a7fd-d0bf5e65cbc0",
+        "z": 3067,
+        "marker": [
+          "Source and target of a transition must not be located in orthogonal regions!"
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "123efd02-cf54-4bc2-9f9a-32c74b4951e2"
+        },
+        "target": {
+          "id": "aaa67dc5-27e5-4860-b927-4fa036d97d18",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 166.1875,
+              "dy": 73.8046875,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "EV_SYS_01_NOCARIN",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.5717905715947321,
+              "offset": 14.999999999999998,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "2",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "8b264a8c-350b-41e7-95cc-20422f9c45a3",
+        "z": 3067,
+        "vertices": [
+          {
+            "x": 2090,
+            "y": 800
+          }
+        ],
+        "marker": [
+          "Source and target of a transition must not be located in orthogonal regions!"
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "aaa67dc5-27e5-4860-b927-4fa036d97d18"
+        },
+        "target": {
+          "id": "08a0dd36-b449-45e3-a753-6d598c484974",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 12.1875,
+              "dy": 29,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "text": "EV_SYS_01_CARIN\n",
+                "fill": "#555555"
+              }
+            },
+            "position": {
+              "distance": 0.7601730423987662,
+              "offset": -6.77813720703125,
+              "angle": 0
+            }
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "1",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "a3aad876-d32e-4711-9f49-5c7da1de0be0",
+        "z": 3067,
+        "vertices": [
+          {
+            "x": 1470,
+            "y": 646.09765625
+          }
+        ],
+        "marker": [
+          "Source and target of a transition must not be located in orthogonal regions!"
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {}
+      },
+      {
+        "type": "Transition",
+        "source": {
+          "id": "4c120328-c4d5-4064-a918-2ac99b02aedc"
+        },
+        "target": {
+          "id": "aaa67dc5-27e5-4860-b927-4fa036d97d18",
+          "anchor": {
+            "name": "topLeft",
+            "args": {
+              "dx": 6.015625,
+              "dy": 34.5,
+              "rotate": true
+            }
+          },
+          "priority": true
+        },
+        "router": {
+          "name": "orthogonal",
+          "args": {
+            "padding": 8
+          }
+        },
+        "connector": {
+          "name": "rounded"
+        },
+        "labels": [
+          {
+            "attrs": {
+              "text": {
+                "fill": "#555555"
+              }
+            },
+            "position": {}
+          },
+          {
+            "attrs": {
+              "root": {
+                "opacity": 1
+              },
+              "label": {
+                "text": "1",
+                "fill": "#555555"
+              },
+              "circleBody": {
+                "fill": "#F0F0F0",
+                "stroke": "#555555"
+              }
+            }
+          }
+        ],
+        "id": "a51db78f-6220-4290-aed8-487032668f9f",
+        "z": 3067,
+        "marker": [
+          "Entry target must be child of the region.\nSource and target of a transition must not be located in orthogonal regions!"
+        ],
+        "parent": "5802df0e-b6f5-41fe-8614-3c46a5b70282",
+        "attrs": {}
       }
     ]
   },
@@ -2872,8 +2872,8 @@
         "getters": false
       },
       "IdentifierSettings": {
-        "moduleName": "Led",
-        "statemachinePrefix": "led",
+        "moduleName": "LedExport",
+        "statemachinePrefix": "ledExport",
         "separator": "_",
         "headerFilenameExtension": "h",
         "sourceFilenameExtension": "c"
